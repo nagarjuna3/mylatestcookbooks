@@ -16,7 +16,7 @@ package 'httpd' do
 end
 
 file '/var/www/html/index.html' do
-  content 'hello sirji!! second version'
+  content 'hello sirji!! second version!! modified'
   action :create
 end
 
